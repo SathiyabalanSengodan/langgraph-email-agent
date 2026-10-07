@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# LangGraph dev server
+.langgraph_api/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+.ipynb_checkpoints/
